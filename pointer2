@@ -1,0 +1,15 @@
+//WAP  to understand the whole concept of pointers.
+#include<iostream>
+using namespace std;
+int main(){
+    int n=6;
+    int *p=&n;
+    cout<<n <<endl; //shows the value of n
+    cout<<p <<endl; //shows the value of p that is the address of n
+    cout<<*p <<endl; // shows what is inside the value of p, i.e. address of n
+    cout<<&p <<endl; // shows what is the address of p
+    cout<<&n <<endl; //shows what is the address of n
+    
+    return 0;
+
+}
