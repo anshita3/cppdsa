@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int var=9;
+    int* ptvar;
+    ptvar=&var;
+    cout<<var <<endl <<&var <<endl <<ptvar <<endl <<*ptvar <<endl <<&ptvar;
+    return 0;
+}
